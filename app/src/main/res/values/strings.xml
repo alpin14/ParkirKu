@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">ParkirKu</string>
-    <string name="warnetIntro">ParkirKu</string>
+    <string name="parkirJudul">ParkirKu</string>
     <string name="jam">Masukkan Total Jam</string>
     <string name="hitung">Hitung</string>
     <string name="jam_invalid">Jam Tidak Boleh Kosong</string>
@@ -24,7 +24,6 @@
     <string name="konfirmasi_hapus">Hapus histori?</string>
     <string name="hapus">Hapus</string>
     <string name="batal">Batal</string>
-    <string name="game">List Game</string>
     <string name="switch_layout">Ubah tampilan</string>
     <string name="user_x">Username : %1$s</string>
     <string name="pass_x">Password : %1$s</string>
