@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentMain">
+
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="org.d3if3049.ParkirKu.ui.main.FragmentMain"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_fragmentMain_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_fragmentMain_to_historiFragment"
+            app:destination="@id/historiFragment" />
+        <action
+            android:id="@+id/action_fragmentMain_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="org.d3if3049.ParkirKu.ui.AboutFragment"
+        android:label="AboutFragment"
+        tools:layout="@layout/fragment_about"/>
+    <fragment
+        android:id="@+id/historiFragment"
+        android:name="org.d3if3049.ParkirKu.ui.histori.HistoriFragment"
+        android:label="HistoriFragment"
+        tools:layout="@layout/fragment_histori"/>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="org.d3if0147.ParkirKu.ui.game.GameFragment"
+        android:label="GameFragment"
+        tools:layout="@layout/fragment_game"/>
+
+</navigation>

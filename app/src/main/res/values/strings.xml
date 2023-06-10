@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ParkirKu</string>
+    <string name="warnetIntro">ParkirKu</string>
+    <string name="jam">Masukkan Total Jam</string>
+    <string name="hitung">Hitung</string>
+    <string name="jam_invalid">Jam Tidak Boleh Kosong</string>
+    <string name="bayar">Total Yang harus Anda Bayarkan Adalah : Rp.</string>
+    <string-array name="planets_array" >
+        <item>Motor</item>
+        <item>Mobil</item>
+    </string-array>
+    <string name="harga_x">Total Biaya Parkir Anda Adalah: Rp. %1$d</string>
+    <string name="user">Username :</string>
+    <string name="pass">Password :</string>
+    <string name="tentang_aplikasi">Tentang ParkirKu</string>
+    <string name="copyright">ParkirKu merupakan aplikasi untuk melakukan pengecekan biaya parkir. Aplikasi ini dibuat untuk memenuhi asesmen mata kuliah mobile programming 1 \n\nDibuat oleh: \n Muhammad Fadhlan Sya\'uqi \n D3 RPLA 4501 \n 6706213049</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="bagikan_template">%1s\n%2s\n%3$s</string>
+    <string name="belum_ada_data">Belum ada data</string>
+    <string name="histori">Histori</string>
+    <string name="jam_x">JAM : %1$s</string>
+    <string name="tipe_x">TIPE : %1$s</string>
+    <string name="konfirmasi_hapus">Hapus histori?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+    <string name="game">List Game</string>
+    <string name="switch_layout">Ubah tampilan</string>
+    <string name="user_x">Username : %1$s</string>
+    <string name="pass_x">Password : %1$s</string>
+    <string name="iconDescription">background main</string>
+    <string name="iconInstagramDescription">iconIG</string>
+    <string name="iconGithubDescription">iconGITHUB</string>
+    <string name="iconLinkedInDescription">iconLinkedIn</string>
+
+</resources>
