@@ -60,6 +60,7 @@ androidx.recyclerview.widget.ListAdapter<ParkirEntity, HistoriAdapter.ViewHolder
             tanggalTextView.text = dateFormatter.format(Date(item.tanggal))
             tipeTextView.text = root.context.getString(R.string.tipe_x, item.tipe)
             jamTextView.text = root.context.getString(R.string.jam_x, hasilHitung.jam.toString())
+            biayaTextView.text = root.context.getString(R.string.biaya_x, hasilHitung.harga.toString())
             binding.button.setOnClickListener { hapusData(item.id, view.context) }
         }
         private fun hapusData(id: Long, context: Context) {

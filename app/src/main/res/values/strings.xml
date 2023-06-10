@@ -5,7 +5,7 @@
     <string name="hitung">Hitung</string>
     <string name="jam_invalid">Jam Tidak Boleh Kosong</string>
     <string name="bayar">Total Yang harus Anda Bayarkan Adalah : Rp.</string>
-    <string-array name="planets_array" >
+    <string-array name="planets_array">
         <item>Motor</item>
         <item>Mobil</item>
     </string-array>
@@ -18,8 +18,9 @@
     <string name="bagikan_template">%1s\n%2s\n%3$s</string>
     <string name="belum_ada_data">Belum ada data</string>
     <string name="histori">Histori</string>
-    <string name="jam_x">JAM : %1$s</string>
-    <string name="tipe_x">TIPE : %1$s</string>
+    <string name="jam_x">%1$s Jam</string>
+    <string name="tipe_x">%1$s</string>
+    <string name="biaya_x">Rp %1$s</string>
     <string name="konfirmasi_hapus">Hapus histori?</string>
     <string name="hapus">Hapus</string>
     <string name="batal">Batal</string>
