@@ -1,4 +1,4 @@
-package org.d3if3049.ParkirKu
+package org.d3if3049.ParkirKu.ui.histori
 
 import android.content.Context
 import androidx.datastore.core.DataStore

@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="org.d3if3049.ParkirKu.ui.AboutFragment"
+        android:name="org.d3if3049.ParkirKu.ui.about.AboutFragment"
         android:label="AboutFragment"
         tools:layout="@layout/fragment_about"/>
     <fragment

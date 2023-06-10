@@ -3,29 +3,24 @@ package org.d3if3049.ParkirKu.ui.histori
 import android.content.Context
 import android.os.Bundle
 import android.view.*
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
-import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
-import org.d3if3049.ParkirKu.DataStoreManager
 import org.d3if3049.ParkirKu.R
 import org.d3if3049.ParkirKu.databinding.FragmentHistoriBinding
 import org.d3if3049.ParkirKu.db.ParkirDb
-import org.d3if3049.ParkirKu.ui.main.MainViewModelFactory
 
 class HistoriFragment : Fragment() {
     private lateinit var binding: FragmentHistoriBinding
     private lateinit var myAdapter: HistoriAdapter
     private lateinit var factory: HistoriViewModelFactory
-    private lateinit var dataStoreManager:DataStoreManager
+    private lateinit var dataStoreManager: DataStoreManager
 
     companion object{
         private var dataStoreManagerInstance: DataStoreManager? = null
